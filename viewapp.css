@@ -1,0 +1,40 @@
+/* Styles for the table */
+.gen {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100vh;
+  background: url(https://img.freepik.com/free-vector/tiny-people-searching-business-opportunities_74855-19928.jpg?w=2000&t=st=1690131266~exp=1690131866~hmac=3a4d6c4bbb7ccf1aafb635882e58d4c77daeb16f0e5b16c4fa43eb2156eaf9b2);
+background-size: cover;
+}
+
+/* Styles for the table header cells */
+.form-title th {
+  background-color: #b8c6fb;
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Styles for the table data cells */
+.gen td {
+  border: 1px solid #aabdf2;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Alternating row background colors */
+.gen tbody tr:nth-child(even) {
+  background-color: #d3d5f4;
+}
+
+/* Hover effect on table rows */
+.gen tbody tr:hover {
+  background-color: #aecdfe;
+}
+
+/* Styles for the table container */
+.container12 {
+  overflow-x: auto;
+  margin-top: 170px;
+  margin-left: 150px;
+}

@@ -1,0 +1,108 @@
+.start{
+    background-image:url(https://img.freepik.com/free-vector/tiny-people-searching-business-opportunities_74855-19928.jpg?w=2000&t=st=1690045749~exp=1690046349~hmac=dce17b1bc264e1f43d52f94955ca4af8532e444e0d1a15b8aa1c68cc597edc5d); 
+    overflow: hidden;
+    height:820px;
+    background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+    
+}
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding-left:9%;
+    padding-top:6%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+        height: 300px;
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 10px rgba(148, 152, 159, 0.751);
+        align-items: center;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+        background: linear-gradient(90deg, #eee7ec 0%, #a8bcf4  100%);
+        opacity: 0.7;
+    
+    }
+  
+  
+  .link_wrapper{
+    position: relative;
+    overflow: hidden;
+  }
+  
+.starting{
+    font-size: 20px;
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    background-color:black;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+    z-index: 2;
+    
+  }
+   
+  .starting:hover{
+    width: 200px;
+    border: 3px solid rgb(225, 204, 225);
+    background: black;
+    color:rgb(237, 231, 237);
+  }
+  
+  .starting:hover + .icons{
+    border: 3px solid #0f93b8;
+    right: -25%;
+  }
+.startLogo{
+    border-radius:500px;
+    height:2%;
+    width:41%;
+    text-align:center;
+    overflow: hidden;
+}
+.startLogo:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.5s;
+  
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .waviy {
+    position: relative;
+    padding-left: 20px;
+  }
+  .abhi{
+    font-size: 60px;
+    font-family: monospace;
+    margin-left: 590px;
+  }
+  .howimage1{
+    margin-left:20px ;
+    margin-top:20px;
+  }

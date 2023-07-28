@@ -1,0 +1,145 @@
+.ticketbg{
+    background: linear-gradient(90deg,#d1c8e8  0%, #bdd2e9 40%);
+}
+.ticketbg h1{
+    color:#0f0d0d;
+}
+  .ticket {
+    font-family: sans-serif;
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100%;
+    background-color: #04030C;
+    width: 700px;
+    height: 260px;
+    border-radius: 15px;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+    display: block;
+    margin: 2% auto auto auto;
+    color: #fff;;
+  }
+  
+  .date {
+    margin: 15px;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  
+  .date .day{
+    font-size: 80px;
+    float: left;
+    color: #080707;
+  }
+  
+  .date .month-and-time {
+    float: left;
+    margin: 15px 0 0 0;
+    font-weight: bold;
+    color: #080707;
+  }
+  
+  .artist {
+    font-size: 30px;
+    margin: 10px 100px 0 40px;
+    float: left;
+    font-weight: bold;
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  .name{
+    color: #080707;
+  }
+ 
+  .cta .buy {
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #eec07c;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #0a0909;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }  .cta .buyis {
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #84c386;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #0a0909;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }  .cta .buyid {
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #c38484;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: #0a0909;
+    text-decoration: none;
+    -webkit-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+    -webkit-filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+              filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3)); 
+  }
+  .jithu{
+    font-size: 50px;
+  }
+  
+  .small {
+    font-weight: 200;
+    color: #080707;
+  }
+  
+  .ticket-1 {
+      background-image: url(https://storage.googleapis.com/csfirst_public/hoc/hoc2017.png);
+  }
+  
+  .ticket-2{
+      background-image: url(https://logowik.com/content/uploads/images/figma2452.logowik.com.webp);
+  }
+  .ticket-3 {
+    background-image: url(https://i.pinimg.com/originals/3c/2e/d1/3c2ed1e6d4f76d7775417ee1a992bc75.png);
+}
+
+
+.ticket + .ticket {
+    margin-top: 20px; /* Adjust the value as per your requirement */
+  }
+
+  .ticket-animation {
+    animation: fadeIn 1s ease-out;
+    animation-fill-mode: both; /* This ensures the animation stays in its final state after finishing */
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
